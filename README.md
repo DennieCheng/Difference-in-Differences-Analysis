@@ -141,32 +141,6 @@ The package generates three key plots:
 2. **Pre-Period Parallel Trends**: Focused view of pre-intervention period to assess parallel trends assumption
 3. **Event Study Plot**: Dynamic treatment effects with 95% confidence intervals relative to intervention timing
 
-## Limitations
-
-1. **Illustrative Inference**: Only two markets are included, limiting statistical power and generalizability
-2. **Parallel Trends Assumption**: Cannot be tested definitively; we can only assess pre-period trends
-3. **Synthetic Data**: Real healthcare claims data involve additional complexities:
-   - Enrollment changes and attrition
-   - More sophisticated risk adjustment
-   - Spillover effects and contamination
-   - Clustered standard errors for multiple markets
-4. **Simple Seasonality**: Real healthcare costs have more complex seasonal patterns
-5. **No Covariates**: Production analyses would include market-level characteristics and time-varying controls
-
-## Extensions
-
-Potential enhancements for real-world applications:
-
-- **Multiple Markets**: Expand to 10+ markets for more robust inference
-- **Member-Level Analysis**: Run models on member-month data with member fixed effects
-- **Heterogeneous Effects**: Test for differential effects by risk score, age, or disease category
-- **Robustness Checks**: 
-  - Alternative control groups
-  - Different pre/post period definitions
-  - Placebo tests with fake intervention dates
-- **Clustered Standard Errors**: Account for serial correlation within markets
-- **Synthetic Control**: Use weighted combination of control markets
-
 ## References
 
 - Angrist, J. D., & Pischke, J. S. (2009). *Mostly Harmless Econometrics*. Princeton University Press.
