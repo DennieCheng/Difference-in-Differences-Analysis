@@ -70,18 +70,6 @@ The data generation process includes realistic healthcare cost components:
 └── output/                   # Generated outputs (plots, results)
 ```
 
-## Installation
-
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/did-healthcare-analysis.git
-cd did-healthcare-analysis
-```
-
-2. Install required packages:
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
