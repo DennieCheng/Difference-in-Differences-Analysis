@@ -41,7 +41,6 @@ Difference in Differences/
 - Primary project documentation
 - Methodology explanation
 - Study design details
-- Limitations and extensions
 - References
 
 **QUICKSTART.md**
